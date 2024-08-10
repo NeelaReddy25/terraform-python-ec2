@@ -1,8 +1,8 @@
 # Devops use cases with python
 
-1.List available repositories in our GitHub account
-2.How to create a GitHub repository?
-3.How to schedule a Cron Job to Start and Stop instances.
+1. List available repositories in our GitHub account
+2. How to create a GitHub repository?
+3. How to schedule a Cron Job to Start and Stop instances.
 
 ## How to create virtual environment in python
 
