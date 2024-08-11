@@ -5,15 +5,15 @@ terraform {
         version = "5.59.0"
     }
   }
-  backend "aws" {
+  backend "s3" {
     bucket = "neelareddy.stores"
     key = "terraform-python-ec2"
-    region = "us-region-1"
+    region = "us-east-1"
     dynamodb_table = "neelareddy-dev"
   }
 }
 
 # Provide authentication here
 provider "aws" {
-  region = "ys-east-1"
+  region = "us-east-1"
 }
